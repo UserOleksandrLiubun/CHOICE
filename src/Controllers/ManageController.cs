@@ -516,7 +516,7 @@ namespace GroupChoice.Controllers
         {
             return string.Format(
                 AuthenticatorUriFormat,
-                _urlEncoder.Encode("ToDo"),
+                _urlEncoder.Encode("GroupChoice"),
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }
