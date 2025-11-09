@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
-using GroupChoice;
 
 var builder = WebApplication.CreateBuilder(args);
 
